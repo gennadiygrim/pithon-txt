@@ -1,4 +1,4 @@
-class House():
+class House:
     """Opisanie Doma"""
 
     def __init__(self, street, number):
@@ -16,7 +16,6 @@ class House():
 
 
 class ProspectHouse(House):
-
     def __init__(self, prospect, number):
         super().__init__(self, number)
         self.prospect = prospect

@@ -1,2 +1,3 @@
-import math 
-print(math.factorial(10)) 
+import math
+
+print(math.factorial(10))

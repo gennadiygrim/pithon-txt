@@ -1,3 +1,3 @@
-f = open("111.txt","r")
+f = open("111.txt", "r")
 print(f.read())
 f.close()

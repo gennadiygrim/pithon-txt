@@ -1,2 +1,3 @@
 import math as m
-print(m.factorial(10)) 
+
+print(m.factorial(10))

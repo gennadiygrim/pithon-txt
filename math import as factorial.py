@@ -1,2 +1,3 @@
 from math import factorial
-print(factorial(10)) 
+
+print(factorial(10))
