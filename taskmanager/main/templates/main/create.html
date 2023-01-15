@@ -7,10 +7,10 @@
  <h1>Cоздать таск</h1>
  <form action ="post">
     {% csrf_token %}
-    {{ form.title }}
-    {{ form.task }}
-    <input type="text" placeholder="Введите название" class="form-control"></br>
-    <textarea type="text" placeholder="Введите название" class="form-control"></textarea></br>
+    {{ form.title }} </br>
+    {{ form.task }} </br>
+  <!--  <input type="text" placeholder="Введите название" class="form-control"></br> 
+    <textarea type="text" placeholder="Введите название" class="form-control"></textarea></br> -->
     <button type="submit" class = "btn btn-success">Добавить</button>
  </form>
 {% endblock %} 
