@@ -4,9 +4,11 @@ from django.shortcuts import redirect, render
 from .models import Task
 from .forms import TaskForm
 #tasks = Task.objects.all()
-tasks = Task.objects.order_by('id')
+#tasks = Task.objects.order_by('id')
+
 #tasks = Task.objects.order_by('id')[:2]
 def index(request):
+   # tasks1=tasks
     tasks = Task.objects.order_by('id')
     return render(request,'main/index.html',{'title':'Главная страница сайта','tasks':tasks})
 def about(request):
