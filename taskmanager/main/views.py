@@ -9,7 +9,6 @@ tasks = Task.objects.order_by('id')
 def index(request):
     tasks = Task.objects.order_by('id')
     return render(request,'main/index.html',{'title':'Главная страница сайта','tasks':tasks})
-
 def about(request):
     #return HttpResponse("<h4>About</h4>")
     return render(request,'main/about.html')

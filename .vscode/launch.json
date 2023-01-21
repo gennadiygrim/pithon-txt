@@ -5,6 +5,8 @@
     "version": "0.2.0",
     "configurations": [
 
+    
+
 
 
 
@@ -113,11 +115,24 @@
             "type": "python",
             "request": "launch",
            // "program": "${workspaceFolder}\\manage.py",
-             "program": "D:\\pithon txt\\taskmanager\\manage.py",
+             "program": "D:\\pithon_txt\\taskmanager\\manage.py",
             "args": [
                              "runserver"
             ],
             "django": true
-        }
+        },
+        {
+            "name": "BlogTheData",
+           // "python": "/Users/johnsolly/Documents/code/blogthedata/venv/bin/python3",
+            "type": "python",
+            "request": "launch",
+            //"program": "${workspaceFolder}\\manage.py",
+            //"program": "D:/pithon_txt/taskmanager/manage.py",
+            "program": "D:/pithon_txt/taskmanager/manage.py",
+            "console": "internalConsole",
+            "args": ["runserver"],
+           "django": true,
+           "justMyCode": true,
+          }
     ]
 }
